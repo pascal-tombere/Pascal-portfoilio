@@ -235,30 +235,77 @@ span{
     }
 }
 
-.services, .skills, .experience, .contact {
+.services, .skills, .contact {
     padding: 5rem 9%;
     background-color: black;
     color: white;
 }
 
-.services h2, .skills h2, .experience h2, .contact h2 {
+.services h2, .skills h2, .contact h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
     color: #b74b4b;
 }
 
-.services .service-item, .skills .skill-item, .experience .experience-item, .contact .contact-item {
+.services .service-item, .skills .skill-item, .contact .contact-item {
     margin-bottom: 2rem;
 }
 
-.services .service-item h3, .skills .skill-item h3, .experience .experience-item h3, .contact .contact-item h3 {
+.services .service-item h3, .skills .skill-item h3, .contact .contact-item h3 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
-.services .service-item p, .skills .skill-item p, .experience .experience-item p, .contact .contact-item p {
+.services .service-item p, .skills .skill-item p, .contact .contact-item p {
     font-size: 1.6rem;
     line-height: 1.5;
+}
+
+.projects {
+    padding: 5rem 9%;
+    background-color: black;
+    color: white;
+}
+
+.projects h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #b74b4b;
+}
+
+.projects .project-item {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects .project-item img, .projects .project-item video {
+    max-width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 0 25px #b74b4b;
+    margin-bottom: 1rem;
+}
+
+.projects .project-item h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.projects .project-item p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.projects .project-item a {
+    color: #b74b4b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.projects .project-item a:hover {
+    color: white;
 }
 
 footer {
