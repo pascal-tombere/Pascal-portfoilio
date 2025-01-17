@@ -235,28 +235,28 @@ span{
     }
 }
 
-.services, .skills, .education, .experience, .contact {
+.services, .skills, .experience, .contact {
     padding: 5rem 9%;
     background-color: black;
     color: white;
 }
 
-.services h2, .skills h2, .education h2, .experience h2, .contact h2 {
+.services h2, .skills h2, .experience h2, .contact h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
     color: #b74b4b;
 }
 
-.services .service-item, .skills .skill-item, .education .education-item, .experience .experience-item, .contact .contact-item {
+.services .service-item, .skills .skill-item, .experience .experience-item, .contact .contact-item {
     margin-bottom: 2rem;
 }
 
-.services .service-item h3, .skills .skill-item h3, .education .education-item h3, .experience .experience-item h3, .contact .contact-item h3 {
+.services .service-item h3, .skills .skill-item h3, .experience .experience-item h3, .contact .contact-item h3 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
-.services .service-item p, .skills .skill-item p, .education .education-item p, .experience .experience-item p, .contact .contact-item p {
+.services .service-item p, .skills .skill-item p, .experience .experience-item p, .contact .contact-item p {
     font-size: 1.6rem;
     line-height: 1.5;
 }
