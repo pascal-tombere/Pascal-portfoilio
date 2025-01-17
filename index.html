@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pascal's Portfoilio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Pascal</a>
+        <nav>
+            <a href="#home" class="active" onclick="scrollToSection(event, 'home')">Home</a>
+            <a href="#services" onclick="scrollToSection(event, 'services')">Services</a>
+            <a href="#skills" onclick="scrollToSection(event, 'skills')">Skills</a>
+            <a href="#education" onclick="scrollToSection(event, 'education')">Education</a>
+            <a href="#experience" onclick="scrollToSection(event, 'experience')">Experience</a>
+            <a href="#contact" onclick="scrollToSection(event, 'contact')">Contact</a>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Pascal</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>with expertise in building intuitive and engaging websites and creative video editing. I specialize in creating platforms for businesses to found and heard online and innovative projects like YardSale. With a focus on user-friendly design and functionality, I combine technical skills with a creative touch to bring ideas to life.
+                When I'm not coding, I enjoy exploring blockchain technology, teaching, and creating content that educates and inspires. Let's collaborate to build something extraordinary!</p>
+            <div class="social-icons">
+                <a href="https://github.com/pascal-tombere"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/pascal_tombere"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/lil_p_ng"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="service-item">
+            <h3>Web Development</h3>
+            <p>Building responsive and engaging websites tailored to your needs.</p>
+        </div>
+        <div class="service-item">
+            <h3>Video Editing</h3>
+            <p>Creating professional and captivating video content.</p>
+        </div>
+        <!-- Ending of serivices -->
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-item">
+            <h3>HTML & CSS</h3>
+            <p>Proficient in creating structured and styled web pages.</p>
+        </div>
+        <div class="skill-item">
+            <h3>JavaScript</h3>
+            <p>Experienced in adding interactivity and dynamic content to websites.</p>
+        </div>
+        <!-- Add more skills as needed -->
+    </section>
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Bachelor's Degree in Computer Science</h3>
+            <p>University of XYZ, 2015-2019</p>
+        </div>
+        <!-- Add more education details as needed -->
+    </section>
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Frontend Developer at ABC Corp</h3>
+            <p>Developed and maintained the front end of the company's main product, improving user experience and performance. (2020-2022)</p>
+        </div>
+        <div class="experience-item">
+            <h3>Video Editor at XYZ Media</h3>
+            <p>Edited and produced video content for various clients, ensuring high quality and timely delivery. (2018-2020)</p>
+        </div>
+        <!-- Add more experience details as needed -->
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="contact-item">
+            <h3>Email</h3>
+            <p>pascaltombere1@gmail.com</p>
+        </div>
+        <div class="contact-item">
+            <h3>Phone</h3>
+            <p>+123 456 7890</p>
+        </div>
+        <!-- Add more contact details as needed -->
+    </section>
+    <footer>
+        <p>&copy; 2025 Pascal's Portfolio. All rights reserved.</p>
+        <p>Designed by Pascal Eno Tombere</p>
+        <p><a href="mailto:pascaltombere1@gmail.com">pascaltombere1@gmail.com</a></p>
+    </footer>
+    <script>
+        function scrollToSection(event, sectionId) {
+            event.preventDefault();
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
