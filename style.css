@@ -308,6 +308,24 @@ span{
     color: white;
 }
 
+@media (max-width: 995px) {
+    .projects {
+        padding: 3rem 5%;
+    }
+
+    .projects h2 {
+        font-size: 2.5rem;
+    }
+
+    .projects .project-item h3 {
+        font-size: 2rem;
+    }
+
+    .projects .project-item p {
+        font-size: 1.4rem;
+    }
+}
+
 footer {
     padding: 2rem 9%;
     background-color: #161616;
