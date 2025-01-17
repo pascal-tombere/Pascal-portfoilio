@@ -60,9 +60,10 @@ nav a.active{
     flex-direction: column;
     cursor: pointer;
     z-index: 101;
-    position: fixed;
-    top: 1rem;
+    position: absolute;
+    top: 50%;
     right: 9%;
+    transform: translateY(-50%);
 }
 
 .hamburger div {
