@@ -60,6 +60,9 @@ nav a.active{
     flex-direction: column;
     cursor: pointer;
     z-index: 101;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
 }
 
 .hamburger div {
@@ -92,8 +95,8 @@ nav {
     }
     nav a {
         display: block;
-        font-size: 2rem;
-        margin: 2rem 0;
+        font-size: 1.8rem;
+        margin: 1.5rem 0;
         text-align: center;
     }
     nav a:hover,
