@@ -59,6 +59,7 @@ nav a.active{
     display: none;
     flex-direction: column;
     cursor: pointer;
+    z-index: 101;
 }
 
 .hamburger div {
@@ -68,30 +69,35 @@ nav a.active{
     margin: 4px 0;
     transition: 0.4s;
 }
+
+nav {
+    transition: transform 0.3s ease;
+}
+
 @media(max-width:995px){
-    nav{
-        position: absolute;
-        display: none;
+    nav {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
         top: 0;
         right: 0;
-        width: 40%;
+        width: 60%;
+        height: 100%;
         border-left: 3px solid #b74b4b;
-        border-bottom: 3px solid #b74b4b;
-        border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
         background-color: #161616;
-        border-top: 0.1rem solid rgba(0,0,0,0.1);
+        transform: translateX(100%);
     }
-    nav.active{
-        display: block;
+    nav.active {
+        transform: translateX(0);
     }
-    nav a{
+    nav a {
         display: block;
         font-size: 2rem;
-        margin: 3rem 0;
+        margin: 2rem 0;
+        text-align: center;
     }
     nav a:hover,
-    nav a.active{
+    nav a.active {
         padding: 1rem;
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid #b74b4b;
