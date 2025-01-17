@@ -107,6 +107,10 @@ nav {
     }
     .hamburger {
         display: flex;
+        position: absolute;
+        top: 50%;
+        right: 9%;
+        transform: translateY(-50%);
     }
 }
 section{
