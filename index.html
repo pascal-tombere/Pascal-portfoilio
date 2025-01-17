@@ -10,6 +10,11 @@
 <body>
     <header>
         <a href="#" class="logo">Pascal</a>
+        <div class="hamburger" onclick="toggleNav()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <nav>
             <a href="#home" class="active" onclick="scrollToSection(event, 'home')">Home</a>
             <a href="#services" onclick="scrollToSection(event, 'services')">Services</a>
@@ -104,6 +109,11 @@
         function scrollToSection(event, sectionId) {
             event.preventDefault();
             document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function toggleNav() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
         }
     </script>
 </body>

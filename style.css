@@ -55,6 +55,19 @@ nav a.active{
     color: #b74b4b;
     border-bottom: 3px solid #b74b4b;
 }
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #b74b4b;
+    margin: 4px 0;
+    transition: 0.4s;
+}
 @media(max-width:995px){
     nav{
         position: absolute;
@@ -82,6 +95,9 @@ nav a.active{
         padding: 1rem;
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid #b74b4b;
+    }
+    .hamburger {
+        display: flex;
     }
 }
 section{
